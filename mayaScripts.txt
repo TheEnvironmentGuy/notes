@@ -1,4 +1,4 @@
-Maya tools
+Maya Scripts
 
 	Scene save script to maintain Windows->Linux compatibility
 		Default view-port
@@ -6,4 +6,40 @@ Maya tools
 		Turn off textures
 		Remove unused nodes
 		Close windows
+	
+	Auto Gamma
+		Set non exr images too linear srgb
+		Auto add gamma curve to all non file texture colour inputs
+		Gamma settings in MRay
+		
+	EXR alpha extract (This is a work around for a MRay bug)
+		Use the OpenEXR API to save out alpha channels from exr images and recode to 8bit tiff
+		Connect the new alpha maps
+		
+	Transparent AO render layer (This is a work around for a material assignment error in Maya, as well as a time saver :)
+		Methodically create layered ao shaders for objects with transparency into a render layer 
+		
+	Set-up tool (Makes migrating computers and error recovery much faster)
+		Change settings of new scenes to reasonable values
+		Load user preferences
+		
+	Asset re-importer (Fixes some bugs where an object wont render properly unless exported as obj and imported back)
+		remove doubles
+		delete history
+		export selected object as obj
+		import
+		re-assign attributes
+		
+	Screenspace render agent (One less floating window)
+		Render the current scene by overdrawing viewport
+		
+	Material Database (Dont wast time doing the same thing over and over again)
+		Read from file and write shader network applied to selected objects
+		Name shader nodes after name of applied object and function
+		
+		
+		
+		
+
+		
 		
