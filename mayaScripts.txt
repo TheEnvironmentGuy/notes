@@ -1,0 +1,9 @@
+Maya tools
+
+	Scene save script to maintain Windows->Linux compatibility
+		Default view-port
+		Delete history
+		Turn off textures
+		Remove unused nodes
+		Close windows
+		
