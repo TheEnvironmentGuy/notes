@@ -13,7 +13,8 @@ Maya Scripts
 		Gamma settings in MRay
 		
 	EXR alpha extract (This is a work around for a MRay bug)
-		Use the OpenEXR API to save out alpha channels from exr images and recode to 8bit tiff
+		Use the OpenEXR API to save out alpha channels from exr images
+		Recode to 8bit(16?) tiff
 		Connect the new alpha maps
 		
 	Transparent AO render layer (This is a work around for a material assignment error in Maya, as well as a time saver :)
