@@ -1,0 +1,36 @@
+How to code like a boss... or somthing
+The evolving list of code production workflow for TEG
+Also happens to be the pre-plan for future open development
+
+Good websites for info
+	http://www.joelonsoftware.com/
+
+Quick check
+    Do you use source control?
+    Can you make a build in one step?
+    Do you make daily builds?
+    Do you have a bug database?
+    Do you fix bugs before writing new code?
+    Do you have an up-to-date schedule?
+    Do you have a spec?
+    Do programmers have quiet working conditions?
+    Do you use the best tools money can buy?
+    Do you have testers?
+    Do new candidates write code during their interview?
+    Do you do hallway usability testing? 
+	
+Three steps to a good bug report
+	Steps to reproduce
+	What you expected to see
+	What you saw instead
+	
+Ten tips for bug tracking
+	Try to reproduce the MINIMAL steps required to reproduce a bug
+	Only person that can close a bug is the person who reported it, only he/she can be sure what they saw is fixed
+	Use a bug tracker damm it!
+	No reproduction steps, no fixed bug
+	Always report exact version (ID) of bugged software
+	Dont accept bug reports through any other chanel other than the official bug tracker
+	If your a tester and having trouble getting devs to use tracker dont contact them. Just keep using the database and they will catch on eventually
+	Dont alow people to add new feilds to the bug tracker, if you do it will be overun by pesky rodents
+	If nobody is using the bug tracker start assigning bugs to members and use the tracker as an unimplemented features list
