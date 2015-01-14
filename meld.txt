@@ -45,5 +45,18 @@ Things to check out
 	Binding generators
 		Boost
 		
+	BugTrackers
+		Python implementation
+			Trac
+			Bloodhounnd (Must check license compatibility)
+			Roundup
+		
+		C/Cpp implementation
+			GNATS
+			Fossil (May be too complex)
+			
+	
+		
+		
 		
 		
