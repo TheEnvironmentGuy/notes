@@ -6,3 +6,44 @@ Meld (Community open projects game engine)
 	Aims at provideing an easy to use real time graphics solution simular to UDK and Unity by focusing on seamless integration and abstraction of well established tools and librarys as oposed to creating an entirly new system from scratch.
 	License must be completly free for comercial and non commercial use allowing everything to be open source but not prevent closed source versions from being obtained.
 	
+Things to check out
+	Databse
+		SQLite (Public domain, serverless, library, large community)
+		PostgreSQL
+		mongoDB
+		Hypertable
+		memcached
+		redis
+		4store
+		MonetDB
+		eXist
+		
+	Render Engines
+		OGRE
+		bgfx
+		Urho3D
+		
+	game engines
+		GODOT
+		BGE
+		Unity
+		UDK
+		Irrlicht
+		
+	Version control
+		Git
+		OpenCVS
+		Subversion
+		
+	Physics librarys
+		Bullet (Implement)
+		Newton game dynamics
+		Open Dynamics Engine
+		React Physics 3D
+		Tokamak
+		
+	Binding generators
+		Boost
+		
+		
+		

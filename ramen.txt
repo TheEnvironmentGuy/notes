@@ -5,4 +5,12 @@ Ramen (Multi source code moderator)
 	Focuses on specific sections of code, this means you can select the parts you need and discard the rest
 	Allows the program to update itself automatically with 3rd party repos, saving the developers from manuely merging relivant pieces
 	
-	Would be used as a managment tool for Meld development
+	Would be used as a managment tool for Meld(Lasagna) development
+	
+	Its worth investigating some file commparison programs such as Kompare, Meld, Pretty Diff, KDiff3, Ediff...
+	https://en.wikipedia.org/wiki/Meld_%28software%29
+	https://en.wikipedia.org/wiki/Kompare
+	They might provide a starting point by understanding how they work
+	
+	https://en.wikipedia.org/wiki/Lazarus_%28IDE%29
+	looks interesting
