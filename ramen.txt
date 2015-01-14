@@ -1,0 +1,8 @@
+Ramen (Multi source code moderator)
+
+	Tool for conducting source updates for programs built from multiple seperate open source applications
+	Pulls new commits from 3rd party sources and merges with trunk
+	Focuses on specific sections of code, this means you can select the parts you need and discard the rest
+	Allows the program to update itself automatically with 3rd party repos, saving the developers from manuely merging relivant pieces
+	
+	Would be used as a managment tool for Meld development

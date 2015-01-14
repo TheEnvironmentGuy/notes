@@ -1,0 +1,8 @@
+Meld (Community open projects game engine)
+
+	Software interface and abstraction layer for a multitude of open projects forming a turnkey game engine solution.
+	Consists of render engine, physics library, partical system, ide, version system, node abstration...
+	
+	Aims at provideing an easy to use real time graphics solution simular to UDK and Unity by focusing on seamless integration and abstraction of well established tools and librarys as oposed to creating an entirly new system from scratch.
+	License must be completly free for comercial and non commercial use allowing everything to be open source but not prevent closed source versions from being obtained.
+	

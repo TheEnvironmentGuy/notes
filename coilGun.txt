@@ -1,0 +1,20 @@
+Coil Gun
+
+	Calculate speed of projectile using audio recording
+		User inputs distance from barrel to target
+		Find db peaks by filtering all audio under threshold (this cleans up the audio so there is less chance of screwup)
+		Get time stamp at peaks
+		Run timestamps through algorithm
+		Return meters per second
+		
+		This may be possible using Audacity API
+		
+	Statistics tool (Stores data from coilgun IC for statistical feedback in a spreadsheet procesor)
+		Recieve data via USB device
+		Input to spreadsheet
+		
+		We can use the code from my hardware driver to read from USB device
+		Use the API for LibreOffice or choose to write dirrectly to a spreadsheet file.
+		Be amazed
+		
+	
