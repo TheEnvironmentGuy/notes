@@ -1,0 +1,6 @@
+Linux keyboard and mouse driver. (Enables gkey functionality on devices not shiped with GNU/Linux drivers)
+
+	Get code via usb
+	Match code to a keypress or series of key presses
+	Map to event handeler
+	
