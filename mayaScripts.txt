@@ -1,5 +1,6 @@
 Maya Scripts
 
+	#Urgent
 	Scene save script to maintain Windows->Linux compatibility
 		Default view-port
 		Delete history
@@ -37,6 +38,15 @@ Maya Scripts
 	Material Database (Dont wast time doing the same thing over and over again)
 		Read from file and write shader network applied to selected objects
 		Name shader nodes after name of applied object and function
+		
+	Auto node name tool
+		Renames duplicate nodes in all node networks so they do not mach other networks
+		
+		Maya does not allow duplicate names however it does allow DAG nodes under different parents to have same name
+		This can happen if you duplicate objects
+		Will not stop render but it will cause error when assigning contribution maps
+		Not sure if this is a bug but its very annoying
+		
 		
 		
 		
