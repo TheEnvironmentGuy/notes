@@ -1,0 +1,10 @@
+Blender Scripts
+
+	Render Pass analysis tool
+		auto road passes
+		setup composite structure according to file names
+		Display the RGB levels
+		Support for MRay, Cycles and BI passes
+		
+		Faster way to perform test render analysis
+		Blenders compositor has all the neccisary tools to show relevant data

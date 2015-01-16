@@ -7,6 +7,8 @@ Ramen (Multi source code moderator)
 	
 	Would be used as a managment tool for Meld(Lasagna) development
 	
+	There are some code checkers on github which I have stared, take a look and report back solder!
+	
 	Its worth investigating some file commparison programs such as Kompare, Meld, Pretty Diff, KDiff3, Ediff...
 	https://en.wikipedia.org/wiki/Meld_%28software%29
 	https://en.wikipedia.org/wiki/Kompare

@@ -26,8 +26,8 @@ Things to check out
 	game engines
 		GODOT
 		BGE
-		Unity
-		UDK
+		Unity (Proprietary, Only for design reaserch)
+		UDK (Proprietary, Only for design reaserch)
 		Irrlicht
 		
 	Version control
@@ -42,8 +42,10 @@ Things to check out
 		React Physics 3D
 		Tokamak
 		
-	Binding generators
-		Boost
+	##Binding generators (May be obsolete, try whats below)
+	Protocol buffers
+		thrift (Proprietary, its just here as example untill i get back)
+		Boost (Dont really know what this does lol)
 		
 	BugTrackers
 		Python implementation
