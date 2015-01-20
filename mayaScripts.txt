@@ -1,7 +1,7 @@
 Maya Scripts
 
 	#Urgent
-	Scene save script to maintain Windows->Linux compatibility
+	Scene save script to maintain Windows<->Linux compatibility
 		Default view-port
 		Delete history
 		Turn off textures
@@ -36,7 +36,7 @@ Maya Scripts
 		Render the current scene by overdrawing viewport
 		
 	Material Database (Dont wast time doing the same thing over and over again)
-		Read from file and write shader network applied to selected objects
+		Read from file and write shader network applied th selected objects
 		Name shader nodes after name of applied object and function
 		
 	Auto node name tool
@@ -46,6 +46,13 @@ Maya Scripts
 		This can happen if you duplicate objects
 		Will not stop render but it will cause error when assigning contribution maps
 		Not sure if this is a bug but its very annoying
+		
+	Mat relinker
+		Swaps the material node while preserving the alpha map
+		Huge time saver if you need to make a mask with surface shaders on 
+		Also a workaround for errors regarding multilayered progects with conflicting overrides
+		
+		
 		
 		
 		
