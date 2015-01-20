@@ -14,3 +14,7 @@ GIMP scripts
 		Reads data for a set of images regarding layer order, blend type, opacity and others...
 		Designed to be used in tangent with a data writer. Together they can export projects from software
 		such as Photoshop. (I have used Ps for years so naturaly this is a problem)
+		
+	PSD converter
+		Rebuild layers into GIMP format and convert compatable effects such as adjustments and layer styles
+		I have a lot of psd files laying around...
