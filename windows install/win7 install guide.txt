@@ -1,0 +1,78 @@
+Windows instalation guide:
+	Last update:
+		7/21/2015
+	OS:
+		win7 pro x64
+	
+Intro:
+	This is a general guide to installing win7 pro and setting it up.
+	It assumes the user is already familiar with the general process
+	and focuses more on what things need changed from the default settings
+	
+	This guide includes notes that are helpfull when setting up dual boot
+	and provides refrence to other external reasources.
+
+Creating an instalation USB:
+	Note:
+		This process will not work for XP, windows 8 or above.
+		You will need a USB drive with at least 4Gb space.
+	Process:
+		Open CMD as administrator and use the following comands:
+			diskpart
+			list disk
+			select <usb drive name as shown from 'list disk'>
+			clean
+			create partition primary
+			select partition 1
+			active
+			format fs=ntfs
+				#Note that this can take quite a while
+			assign
+			exit
+
+		Now mount your win7 iso and use the following commands via CMD:
+			<Drive letter of mounted iso>:
+			cd boot
+				#If you dont see the boot directory you have to go down a level
+			bootsect.exe/nt60 <usb drive letter>:
+			exit
+		
+		Open mount directory of iso:
+			copy everything onto USB.
+
+		Unmount USB and ISO
+
+Installing:
+	Note:
+		On dual boot systems install windows before Linux. Doing otherwise
+		will overwrite the GRUB bootloader.
+		Take note of ROM sizes, windows installer will not show your device names.
+		Use a USB2 port not 3. Vanila win7 does not have USB3 drivers untill
+		after install.			
+	Process:
+		Boot from USB
+		Go through install wizzard
+			Use the advanced install option to set ROM device to use and format
+			the disk.
+		When installer reboots disconect the USB and set ROM as boot device
+		Wait untill you get to desktop and your done.
+
+Setup:
+	Note:
+		You must run system updates when your Linux ROMS are dissconected
+		otherwise updates may fail and rollback takes a long time.
+		At this point it is safe to install Linux for duel boot systems.
+	process:
+		Activate windows license
+		reboot
+		Run updates
+		reboot
+		Dissable UAC and turn off automatic updates.
+		install GPU and other hardware drivers.
+			#This includes drivers for reading Linux partitions
+		reboot
+		Run system update again
+		You are now ready to install software
+			#see the windows essential software list for details
+
+	At this point it is safe to install Linux for duel boot systems.

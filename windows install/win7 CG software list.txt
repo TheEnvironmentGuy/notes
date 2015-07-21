@@ -1,0 +1,34 @@
+Windows CG instalation list:
+	Last update:
+		7/21/2015
+	OS:
+		win7 pro x64
+
+Intro:
+	This is a list of CG related tools for game artists.
+	It does not cover every tool availible, simply a set of tools
+	which I have found to get the job done.
+
+Software list:
+	FOSS:
+		DJV
+		Blender
+		Krita
+		Mypaint
+		GIMP
+		Godot
+		Urho
+		Polycode
+	Commercial:
+		Unity
+		Unreal
+		Photoshop
+		Mudbox
+		Zbrush
+		Maya
+		ArtRage
+		Substance*
+		DDo
+		Marmoset
+		
+	

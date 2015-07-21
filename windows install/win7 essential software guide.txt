@@ -1,0 +1,95 @@
+Windows essential software guide:
+	Last update:
+		7/21/2015
+	OS:
+		win7 pro x64
+
+Intro:
+	This guide provides a list of software which should be installed
+	on any computer. It also provides some basic instructions 
+	to the use of some key softwares.
+
+	This guide is biast towards FOSS and cross platform solutions.
+	It does not include software for specialized or use specific 
+	purposes.  	
+
+ 	It is assumed you have followed the "win7 install guide" and
+	are using a clean system.
+
+	An internet connection is required
+
+Getting started:
+	Install chocolatey:
+		Note:
+			Chocolatey is CLI a package manager for windows that
+			works much the same way as OSX, Linux or other Unix
+			based systems. Throught the rest of this guide we will
+			use this as a fast and efficient way to install apps.
+		instalation:
+			open CMD
+			run the following code:
+				@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+		Using Chocolatey:
+			use the word 'choco' in cmd followed by an argument
+			such as 'search' or 'install'.
+			Use comand 'choco -h' for full help file.
+	
+	Install Cygwin:
+		Note:
+			Cygwin is a terminal that brings Unix like comandline
+			to the windows system. From this point on we will use
+			it in place of the default CMD.
+
+			Although uncommon some programs do not install, they
+			simply run as is. In this case choco will place them
+			inside 'C:\ProgramData\chocolatey\lib\'. You will need
+			to make shortcuts yourself.
+		Instalation:
+			in the CMD use choco to find Cygwin.
+				$choco search cygwin
+			Find cygwin in the list and install.
+				$choco install Cygwin x.x.x
+	Add desktop shortcut to Cygwin if not alreadt there
+
+App list:
+	Note:
+		Use choco in to install all the software unless 
+		specificaly told otherwise.
+	
+	Install:
+		flashplayerplugin
+		JRE
+		Python 3
+		vlc
+			#Windows Media Player replacment
+		7zip
+			#File archiver
+		KeePassX
+			#password manager
+		gedit
+			#notepad replacment. You could also choos VIM, notepad++ 
+			or emacs instead.
+		LibbreOffice
+			#Microsoft Word replacment
+		git
+			#File version controll
+		Ext2Fsd
+			#enambles windows to read Linux partitions
+		Open Hardware Monitor
+			#This is a no install program, create a shortcut from
+			choco's default path.
+		FireFox
+			#Internet Explorer replacment
+		doublecmd
+			#Windows Explorer filebrowser replacment
+
+App settings
+	Vim:
+		Colour Scheme: desert
+	firefox:
+		Addons:
+			uBlock
+			ghostery
+			clean links
+		
+			
