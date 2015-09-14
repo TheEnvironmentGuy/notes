@@ -17,8 +17,6 @@ Software list:
 		Mypaint
 		GIMP
 		Godot
-		Urho
-		Polycode
 	Commercial:
 		Unity
 		Unreal
