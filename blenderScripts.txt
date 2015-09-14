@@ -8,11 +8,3 @@ Blender Scripts
 		
 		Faster way to perform test render analysis
 		Blenders compositor has all the neccisary tools to show relevant data
-		
-	Blend to ma
-		Write vertex, uv and material data directly to .ma file
-		This is a far more efficient method for rendering using Maya plugins than having to import/export .obj
-		Will also maintain the outline higherarchy
-		
-		Update the model data in the ma file whine the blend is updated
-			this is simular to doing project linking
