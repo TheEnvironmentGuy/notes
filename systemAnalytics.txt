@@ -1,0 +1,28 @@
+systemAnalytics
+	Sends back some useful anomonus info about the machine running the program.
+
+	todo
+		Decentralized model?
+		Add server specification
+	
+	client
+		Objectives
+			Fits within teg-inhouse design standards
+			Written in either Python or C/C++
+			Automates the collection of varius information
+	
+		reportInclude
+			System hardware (GPU, CPU, RAM, ROM, MOBO...)
+			OS info (Linux/Windows, x64, x32)
+			Dependencie info (version of requird libs being used)
+
+		#will not send report and ask user to fix or add exeption
+		reportNotice
+			suspected spelling errors
+			suspected non English
+			
+		#will not send report, user must fix
+		reportCancel if
+			could not auto collect data (will ask user to provide)
+			Does not have content in all feilds
+	
