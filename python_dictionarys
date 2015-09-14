@@ -1,6 +1,0 @@
-Python 3
-
-  Useful thing to remember
-    for keys, values in dic.items():
-    for values in dic.values():
-    for keys in dic.keys():
