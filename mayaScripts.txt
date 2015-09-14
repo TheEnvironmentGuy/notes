@@ -52,6 +52,9 @@ Maya Scripts
 		Huge time saver if you need to make a mask with surface shaders on 
 		Also a workaround for errors regarding multilayered progects with conflicting overrides
 		
+	Maya to blender exporter.
+		This would be a extension to the current teg-inhouse import/export script
+		
 		
 		
 		
