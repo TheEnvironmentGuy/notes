@@ -6,5 +6,7 @@ Blender Scripts
 		Display the RGB levels
 		Support for MRay, Cycles and BI passes
 		
+		Interactive wire placment
+		
 		Faster way to perform test render analysis
 		Blenders compositor has all the neccisary tools to show relevant data
