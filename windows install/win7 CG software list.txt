@@ -1,6 +1,4 @@
 Windows CG instalation list:
-	Last update:
-		7/21/2015
 	OS:
 		win7 pro x64
 
@@ -17,6 +15,9 @@ Software list:
 		Mypaint
 		GIMP
 		Godot
+		OBO
+		Darktable
+		RawTheerapy
 	Commercial:
 		Unity
 		Unreal
@@ -24,9 +25,7 @@ Software list:
 		Mudbox
 		Zbrush
 		Maya
-		ArtRage
 		Substance*
 		DDo
-		Marmoset
 		
 	
